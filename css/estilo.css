@@ -1,0 +1,92 @@
+/* Background */
+
+.stApp {
+    background-image: url('https://i.imgur.com/L3nwIrw_d.webp?maxwidth=760&fidelity=grand'); /* Caminho para a sua imagem */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-repeat: repeat;
+}
+
+/* Título */
+h1 {
+    color: #FFFFFF; /* Cor do título */
+    text-shadow: 
+        3px 3px 0 #000,
+        -3px -3px 0 #000,  
+        3px -3px 0 #000,
+        -3px 3px 0 #000,
+        -2px -2px 0 #000,  
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; /* Contorno preto mais grosso */
+        font-size: 400%;
+}
+
+h2 {
+    color: #FFFFFF; /* Cor do título */
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; /* Contorno preto mais grosso */
+    font-size:175%;
+}
+
+h2 {
+    color: #FFFFFF; /* Cor do título */
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; /* Contorno preto mais grosso */
+    font-size:150%;
+}
+
+
+/* Estilo para DataFrame */
+div.stDataFrame {
+    border: 2px solid #983450; /* Borda ao redor da tabela */
+    border-radius: 10px; /* Bordas arredondadas (opcional) */
+    overflow: hidden; /* Para que as bordas arredondadas funcionem */
+}
+
+
+
+
+/* Estilo botões de download */
+.stDownloadButton > button {
+    border: 2px solid #983450; /* Borda do botão */
+    border-radius: 5px; /* Bordas arredondadas (opcional) */
+    background-color: #000000; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    display: inline-block; /* Para manter o botão em linha */
+    margin-right: 10px; /* Espaçamento entre botões, se houver */
+}
+
+
+.stColumns > div {
+    margin: 25px;
+}
+
+
+/* Gráfico */
+
+.chart-container {
+    border: 12px solid #000; /* Borda de 2px, preta */
+    padding: 10px; /* Adicionar espaçamento interno para dar espaço ao gráfico */
+    border-radius: 8px; /* Deixa as bordas arredondadas (opcional) */
+    margin: 10px; /* Espaçamento externo para dar mais espaço ao redor */
+}
